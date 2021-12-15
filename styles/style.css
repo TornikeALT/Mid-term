@@ -13,9 +13,13 @@ a{
 .flex{
     display: flex;
 }
+
 .top-wrapper{
-    background-color: #222222;
-    max-width: 319px;
+  
+    display: grid;
+    grid-template-columns:1fr 5fr;
+    grid-template-areas: 
+    "left right";
 }
 .sidebar-images{
     
@@ -70,8 +74,57 @@ a{
     margin-top: 19px;
     font-size: 14px;
     font-family:Avenir Heavy;
+    margin-bottom: 106px;
+
 }
 .search-inspiration{
-    max-width: 446px;
+    width: 446px;
     height: 56px;
+    border:none;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    padding: 20px;
+}
+.sidebar-grid{
+    background-color:#222222;
+}
+.main-nav ul{
+    align-items: center;
+}
+.upload-btn{
+    background-color: #FF2288;
+    width: 129px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Avenir Heavy;
+}
+.main-header{
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.main-nav li{
+    padding-right: 30px;
+    
+}
+.main-nav{
+    margin-right: 91px;
+}
+.search-btn{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background-color: transparent;
+    border: none;
+}
+.search-box{
+    position: relative;
+}
+.main-nav a{
+    color:#FF2288;
+    font-size: 14px;
+    font-family:Avenir Heavy;
 }
