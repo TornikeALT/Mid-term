@@ -58,8 +58,14 @@ header{
     margin-right: 15px;
 }
 .load-more{
+    align-items: center;
     justify-content: center;
-    
+    width: 259px;
+    height: 56px;
+    background-color: #F2F2F2;
+    margin:70px auto 0;
+    font-size: 16px;
+    font-family:Avenir Heavy;
 }
 .sidebar-nav{
     background-color: #222222;
@@ -107,9 +113,18 @@ header{
     justify-content: space-between;
     margin-bottom: 54px;
 }
+.top-designers-nav h2{
+    font-size: 32px;
+    font-family:Avenir Heavy;
+}
+.top-designers-nav h3{
+    font-size: 14px;
+    font-family:Avenir Heavy;
+}
 .insta h2,h3{
     text-align: center;
     padding: 10px;
+    opacity: 30%;
 }
 .following-background{
     width: 132px;
@@ -117,6 +132,8 @@ header{
     background-color: white;
     border-radius: 12px;
     color: #222222;
+    align-items: center;
+    justify-content: center;
 }
 .insta-accounts{
     flex-direction: column;
@@ -132,4 +149,18 @@ header{
     height: 44px;
     border-radius: 12px;
     color: #222222;
+   
+}
+.insta h2{
+    font-size: 14px;
+    font-family: Avenir Heavy;
+}
+.insta h3{
+    font-size: 12px;
+    opacity: 60%;
+    font-family: Avenir LT Std book;
+}
+.following-background h4{
+  font-size: 14px;
+  font-family: Avenir Heavy;
 }
