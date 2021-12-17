@@ -95,3 +95,41 @@ header{
 .load-more-left{
     margin-top: 19px;
 }
+.top-designers{
+    margin-left: 319px;
+    height: 500px;
+    max-width: 1601px;
+    background-color: #FAFAFA;
+    padding: 67px;
+
+}
+.top-designers-nav{
+    justify-content: space-between;
+    margin-bottom: 54px;
+}
+.insta h2,h3{
+    text-align: center;
+    padding: 10px;
+}
+.following-background{
+    width: 132px;
+    height: 44px;
+    background-color: white;
+    border-radius: 12px;
+    color: #222222;
+}
+.insta-accounts{
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.insta{
+    justify-content: space-evenly;
+}
+.following-insta{
+    background-color: #F2F2F2;
+    width: 132px;
+    height: 44px;
+    border-radius: 12px;
+    color: #222222;
+}
