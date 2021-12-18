@@ -127,6 +127,9 @@ header{
 .side-designers img{
     padding-right: 20px;
 }
+.side-designers span{
+    font-family:Avenir medium;
+}
 .sibebar-nav-div{
     margin-bottom: 85px;
 }
