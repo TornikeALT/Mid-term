@@ -53,6 +53,9 @@ header{
 }
 .top-navbar a{
     margin-left: 30px;
+    color: #FF2288;
+    font-size: 14px;
+    font-family:Avenir Heavy;
 }
 .sidebar{
     background-color:#222222 ;
