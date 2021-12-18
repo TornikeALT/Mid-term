@@ -69,6 +69,8 @@ header{
     justify-content: space-between;
     align-items: center;
     font-family:Avenir LT Std book;
+    border-top: 1px solid #F2F2F2;
+    padding-top: 20px;
 }
 .middle-top-nav a{
     padding-left: 32px;
@@ -256,4 +258,26 @@ header{
 }
 .bottom-nav a{
     color:#222222;
+}
+.footer-smart-logo{
+    align-items: center;
+}
+.footer-icons{
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1235px;
+    width: 100%;
+    border-top: 1px solid #F2F2F2;
+    padding-top: 50px;
+    margin:100px 0 40px 501px;
+}
+
+.footer-icons img{
+    margin-right: 20px;
+}
+.footer-smart-logo h3{
+    font-family:Avenir LT Std book;
+}
+.footer-smart-logo h2{
+font-family: Avenir LT Std black;
 }
