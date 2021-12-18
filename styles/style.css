@@ -66,6 +66,7 @@ header{
     margin:70px auto 0;
     font-size: 16px;
     font-family:Avenir Heavy;
+    border-radius:12px;
 }
 .sidebar-nav{
     background-color: #222222;
@@ -124,7 +125,6 @@ header{
 .insta h2,h3{
     text-align: center;
     padding: 10px;
-    opacity: 30%;
 }
 .following-background{
     width: 132px;
@@ -151,9 +151,9 @@ header{
     color: #222222;
    
 }
-.insta h2{
-    font-size: 14px;
-    font-family: Avenir Heavy;
+.insta-accounts h2{
+    font-size: 16px;
+    font-family:Avenir medium;
 }
 .insta h3{
     font-size: 12px;
@@ -164,3 +164,21 @@ header{
   font-size: 14px;
   font-family: Avenir Heavy;
 }
+.top-designers-nav h3{
+    opacity: 30%;
+}
+.middle-main-image-child{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.middle-main-image-para{
+    font-size: 18px;
+    font-family:Avenir medium;
+    display: flex;
+    justify-content: center;
+    width: 289px;
+    height: 52px;
+    margin-left: 2rem;
+}
+
