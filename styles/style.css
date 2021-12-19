@@ -23,6 +23,9 @@ header{
 .search{
     align-items: center;
 }
+.account-link{
+    align-items: center;
+}
 .search-inspiration{
     width: 446px;
     height: 56px;
@@ -146,7 +149,7 @@ header{
     padding-bottom: 106px;
 }
 .wrapper{
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1920px;
 }
 .main{
@@ -287,4 +290,37 @@ header{
 }
 .footer-smart-logo h2{
 font-family: Avenir LT Std black;
+}
+th{
+	padding: 35px 50px; 
+	font-size: 18px;
+    font-family:Avenir Heavy;
+    border-bottom: 1px solid #F2F2F2;
+}
+td{
+	padding: 35px 50px; 
+	font-size: 16px;
+    font-family:Avenir Heavy;
+}
+table{
+	text-align: left;
+	border-collapse: collapse;
+	overflow: hidden;
+}
+.second-page-table{
+    max-width: 1920px;
+    margin:30px auto 0px;
+}
+.for-colored-table{
+	background-color:#F2F2F2;
+    border-radius: 12px;
+} 
+.pink-table-row{
+    color: #FF2288;
+}
+.tr-color-grey{
+    color:#AFAFAF;
+}
+.tr-btm-border{
+    border-bottom: 1px solid #F2F2F2;
 }
