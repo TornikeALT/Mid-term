@@ -60,6 +60,12 @@ header{
     font-size: 14px;
     font-family:Avenir Heavy;
 }
+.click-logo{
+    padding: 16px;
+    border: 1px solid #E7E7E7;
+    border-radius: 28px;
+
+}
 .sidebar{
     background-color:#222222 ;
     width: 319px;
@@ -77,9 +83,10 @@ header{
     font-family:Avenir LT Std book;
     border-top: 1px solid #F2F2F2;
     padding-top: 20px;
+    margin-left:30px;
 }
 .middle-top-nav a{
-    padding-left: 32px;
+    margin-right: 52px;
     color: #222222;
 }
 .filter-div{
@@ -382,4 +389,12 @@ table{
     .top-designers{
         margin-left: 0px;
     }
+}
+.all-button-prop{
+    background-color: #F2F2F2;
+    padding:16px ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 12px;
+
 }
