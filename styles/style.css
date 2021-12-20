@@ -324,3 +324,62 @@ table{
 .tr-btm-border{
     border-bottom: 1px solid #F2F2F2;
 }
+@media only screen and (max-width: 1292px){
+    .top-navbar{
+        display: none;
+
+    }
+    .sidebar-section{
+        display: none;
+    }
+    header{
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .middle-main-image{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .middle-top-nav ul{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .insta{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .top-designers-nav{
+        display: none;
+    }
+    .bottom-nav-section{
+       display: none;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .upload-btn{
+        display: none;
+    }
+    .search-btn{
+        display: none;
+    }
+    .top-designers{
+        margin-left: 0px;
+    }
+}
